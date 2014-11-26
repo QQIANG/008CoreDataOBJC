@@ -31,8 +31,19 @@
 	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
 	self.navigationItem.rightBarButtonItem = addButton;
 	self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+
+
+	UIButton *button_ = [UIButton buttonWithType:UIButtonTypeCustom];
+	[button_ setFrame:CGRectMake(0, 0, 120, 44)];
+	[button_ setBackgroundImage:[UIImage imageWithContentsOfFile:@"File path"] forState:UIControlStateNormal];
+	[button_ addTarget:self action:@selector(event_button_click:) forControlEvents:UIControlEventTouchUpInside];
+
+	[self.view addSubview:button_];
 }
 
+-(void)event_button_click:(id)sender{
+	//Do what event you want when click button (Touch up inside)
+}
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
@@ -46,6 +57,7 @@
 	// If appropriate, configure the new managed object.
 	// Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
 	[newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
+	[newManagedObject setValue:[NSString stringWithFormat:@"%@",[NSDate date]] forKey:@"newTimeStamp"];
 	    
 	// Save the context.
 	NSError *error = nil;

@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		7C1AE6611A15EA8100C17757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6601A15EA8100C17757 /* main.m */; };
 		7C1AE6641A15EA8100C17757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6631A15EA8100C17757 /* AppDelegate.m */; };
-		7C1AE6671A15EA8200C17757 /* CoreDataOBJC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6651A15EA8200C17757 /* CoreDataOBJC.xcdatamodeld */; };
 		7C1AE66A1A15EA8200C17757 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6691A15EA8200C17757 /* MasterViewController.m */; };
 		7C1AE66D1A15EA8200C17757 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE66C1A15EA8200C17757 /* DetailViewController.m */; };
 		7C1AE6701A15EA8200C17757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C1AE66E1A15EA8200C17757 /* Main.storyboard */; };
 		7C1AE6721A15EA8200C17757 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1AE6711A15EA8200C17757 /* Images.xcassets */; };
 		7C1AE6751A15EA8200C17757 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C1AE6731A15EA8200C17757 /* LaunchScreen.xib */; };
 		7C1AE6811A15EA8200C17757 /* CoreDataOBJCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6801A15EA8200C17757 /* CoreDataOBJCTests.m */; };
+		7C9A3CB31A25C2F80009300C /* CoreDataOBJC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A3CB11A25C2F80009300C /* CoreDataOBJC.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,6 @@
 		7C1AE6601A15EA8100C17757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C1AE6621A15EA8100C17757 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C1AE6631A15EA8100C17757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C1AE6661A15EA8200C17757 /* CoreDataOBJC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataOBJC.xcdatamodel; sourceTree = "<group>"; };
 		7C1AE6681A15EA8200C17757 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		7C1AE6691A15EA8200C17757 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		7C1AE66B1A15EA8200C17757 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -45,6 +44,8 @@
 		7C1AE67A1A15EA8200C17757 /* CoreDataOBJCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataOBJCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1AE67F1A15EA8200C17757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C1AE6801A15EA8200C17757 /* CoreDataOBJCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataOBJCTests.m; sourceTree = "<group>"; };
+		7C9A3CB21A25C2F80009300C /* CoreDataOBJC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataOBJC.xcdatamodel; sourceTree = "<group>"; };
+		7C9A3D211A25C4860009300C /* CoreDataOBJC 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataOBJC 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +94,9 @@
 				7C1AE66B1A15EA8200C17757 /* DetailViewController.h */,
 				7C1AE66C1A15EA8200C17757 /* DetailViewController.m */,
 				7C1AE66E1A15EA8200C17757 /* Main.storyboard */,
+				7C9A3CB11A25C2F80009300C /* CoreDataOBJC.xcdatamodeld */,
 				7C1AE6711A15EA8200C17757 /* Images.xcassets */,
 				7C1AE6731A15EA8200C17757 /* LaunchScreen.xib */,
-				7C1AE6651A15EA8200C17757 /* CoreDataOBJC.xcdatamodeld */,
 				7C1AE65E1A15EA8100C17757 /* Supporting Files */,
 			);
 			path = CoreDataOBJC;
@@ -230,8 +231,8 @@
 				7C1AE66D1A15EA8200C17757 /* DetailViewController.m in Sources */,
 				7C1AE66A1A15EA8200C17757 /* MasterViewController.m in Sources */,
 				7C1AE6641A15EA8100C17757 /* AppDelegate.m in Sources */,
+				7C9A3CB31A25C2F80009300C /* CoreDataOBJC.xcdatamodeld in Sources */,
 				7C1AE6611A15EA8100C17757 /* main.m in Sources */,
-				7C1AE6671A15EA8200C17757 /* CoreDataOBJC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +443,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7C1AE6651A15EA8200C17757 /* CoreDataOBJC.xcdatamodeld */ = {
+		7C9A3CB11A25C2F80009300C /* CoreDataOBJC.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7C1AE6661A15EA8200C17757 /* CoreDataOBJC.xcdatamodel */,
+				7C9A3D211A25C4860009300C /* CoreDataOBJC 2.xcdatamodel */,
+				7C9A3CB21A25C2F80009300C /* CoreDataOBJC.xcdatamodel */,
 			);
-			currentVersion = 7C1AE6661A15EA8200C17757 /* CoreDataOBJC.xcdatamodel */;
+			currentVersion = 7C9A3D211A25C4860009300C /* CoreDataOBJC 2.xcdatamodel */;
 			path = CoreDataOBJC.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
